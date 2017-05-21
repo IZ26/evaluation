@@ -1,0 +1,141 @@
+{
+	"id": "01b21d81-2dc0-7613-0ea2-0e664c8786eb",
+	"name": "Exercice evaluation",
+	"description": "",
+	"order": [
+		"625c5e70-76ec-7925-dbf4-fab6b42e0ac8",
+		"b6347ed8-6f2e-dde9-7338-8a18f1b40735",
+		"e9724cbf-2be9-7052-c690-d99c6626b54c",
+		"676cbd0f-645a-6463-c0c4-5b9fe34c0ad4"
+	],
+	"folders": [],
+	"timestamp": 1495034157068,
+	"owner": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "625c5e70-76ec-7925-dbf4-fab6b42e0ac8",
+			"headers": "",
+			"url": "http://localhost:1337/api/students",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "01b21d81-2dc0-7613-0ea2-0e664c8786eb",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get students (/api/students)",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1495034157067,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "676cbd0f-645a-6463-c0c4-5b9fe34c0ad4",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:1337/api/marks",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "01b21d81-2dc0-7613-0ea2-0e664c8786eb",
+			"data": [
+				{
+					"key": "student",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mark",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "POST marks(api/marks)",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1495035543018,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b6347ed8-6f2e-dde9-7338-8a18f1b40735",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:1337/api/students",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "01b21d81-2dc0-7613-0ea2-0e664c8786eb",
+			"data": [
+				{
+					"key": "firstname",
+					"value": "Ilan",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lastname",
+					"value": "Zerdoun",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "age",
+					"value": "23",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "class",
+					"value": "Dev1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "M",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Post students (/api/students)",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1495034727674,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e9724cbf-2be9-7052-c690-d99c6626b54c",
+			"headers": "",
+			"url": "http://localhost:1337/api/marks",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "01b21d81-2dc0-7613-0ea2-0e664c8786eb",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET marks(/api/marks)",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1495035501623,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
